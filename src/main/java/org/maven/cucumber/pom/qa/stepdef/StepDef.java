@@ -10,7 +10,7 @@ import cucumber.api.java.en.When;
 public class StepDef extends TestBase {
 	LoginPage page;
 	
-	  @Given("^Browser is launched and url is open$") public void
+	/*  @Given("^Browser is launched and url is open$") public void
 	  browser_is_launched_and_url_is_open() throws Throwable {
 	  TestBase.initialize();
 	  
@@ -23,7 +23,7 @@ public class StepDef extends TestBase {
 	  
 	  @Then("^user able to login$") public void user_able_to_login() {
 	  
-	  }
+	  }*/
 	 
 
 }

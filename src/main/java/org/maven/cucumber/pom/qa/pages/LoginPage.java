@@ -1,5 +1,6 @@
 package org.maven.cucumber.pom.qa.pages;
 
+import org.apache.tools.ant.property.GetProperty;
 import org.maven.cucumber.pom.qa.util.TestBase;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -7,9 +8,9 @@ import org.openqa.selenium.support.PageFactory;
 
 public class LoginPage extends TestBase {
 
-	@FindBy(className = "divicon")
+	@FindBy(className = "mailicon")
 	WebElement rediffmailIcon;
-
+	
 	@FindBy(id = "login1")
 	WebElement email;
 
